@@ -21,6 +21,15 @@ interface TrendingMovie {
   title: string;
   count: number;
   poster_url: string;
+  overview: string;
+}
+
+interface SavedMovie {
+  movie_id: number;
+  title: string;
+  poster_url: string;
+  vote_average: number;
+  $createdAt: string;
 }
 
 interface MovieDetails {

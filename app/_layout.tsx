@@ -6,7 +6,7 @@ import React from "react";
 export default function RootLayout() {
   return (
     <>
-      <StatusBar hidden={true} />
+      <StatusBar barStyle="light-content" backgroundColor="transparent" translucent />
       <Stack >
         <Stack.Screen
           name="(tabs)"
